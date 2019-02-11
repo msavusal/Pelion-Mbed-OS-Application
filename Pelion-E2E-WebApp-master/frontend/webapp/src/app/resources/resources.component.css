@@ -1,0 +1,49 @@
+#endpoints {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#endpoints td, #endpoints th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#endpoints tr:nth-child(even){background-color: #f2f2f2;}
+
+#endpoints tr:hover {background-color: #ddd;}
+
+#endpoints th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #50afaa;
+    color: white;
+}
+
+#resourcecomponent {
+    margin: 10px;
+}
+
+button {
+	background-color:#4caf4f;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:0px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+button:hover {
+	background-color:#5cbf2a;
+}
+
+button.unsubscribe {
+	background-color:#bf9c2a;
+}
